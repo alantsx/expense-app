@@ -32,5 +32,14 @@ export const data: Data = {
       updated_at: new Date(),
       type: ReportType.INCOME,
     },
+
+    {
+      id: 'uuid3',
+      source: 'iFood',
+      amount: 4500,
+      created_at: new Date(),
+      updated_at: new Date(),
+      type: ReportType.EXPENSE,
+    },
   ],
 };
